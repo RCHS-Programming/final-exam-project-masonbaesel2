@@ -14,6 +14,14 @@ public class Car extends Actor
      */
     public void act() 
     {
-        // Add your action code here.
+        checkKeyPress();
+        move();
+        lookForStrawberry();
+        
     }    
+    public void move();
+    {
+        move(5);
+        lookForStrawberry();
+    }
 }
