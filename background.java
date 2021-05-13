@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class background extends World
 {
-
     /**
      * Constructor for objects of class background.
      * 
@@ -17,5 +16,22 @@ public class background extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Strawberry(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Rock(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Rock(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Rock(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Rock(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        addObject (new Rock(), Greenfoot.getRandomNumber(561), Greenfoot.getRandomNumber(561));
+        
+        
     }
 }
