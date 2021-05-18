@@ -100,7 +100,7 @@ public class Car extends Actor
         if(isTouching(Rock.class))
         {
             setLocation(370, 510);
-            
+            Greenfoot.setWorld(new GameOver());
         }
     }
 }
